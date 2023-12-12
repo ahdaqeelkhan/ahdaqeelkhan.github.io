@@ -153,18 +153,7 @@ header {
   }
 }
 
-.booking-form {
-  margin: 0 auto;
-  margin-top: 20px;
-  backdrop-filter: blur(3px) brightness(95%);
-  -webkit-backdrop-filter: blur(3px) brightness(50%);
-  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
-  padding: 50px;
-  max-width: 600px;
-  width: 90%;
-  text-align: center;
-  border-radius: 25px;
-}
+
 
 @media (max-width: 768px){
     .booking-form{
@@ -339,3 +328,162 @@ footer{
       
     }
   }
+  fieldset {
+    margin: 0 auto;
+    max-width: 600px; /* Adjust the max-width as needed */
+    padding: 20px;
+  }
+  
+  /* Optional: Style for legend (if you have it) */
+  legend {
+    font-weight: bold;
+  }
+
+  /* Reset some default browser styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Global styles */
+.section__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header styles */
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+.nav__logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav__links a {
+  text-decoration: none;
+  color: white;
+}
+
+.active {
+  font-weight: bold;
+}
+
+/* Header container styles */
+.header__container {
+  background-image: url('your-header-image-url.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.header__content h1 {
+  font-size: 3rem;
+}
+
+.header__content p {
+  font-size: 1.5rem;
+}
+
+/* Booking form styles */
+.booking-form1,
+.booking-form2 {
+  margin: 40px 0;
+}
+
+.booking-form1 h2,
+.booking-form2 h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 10px 0;
+}
+
+input,
+select {
+  margin: 5px 0;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.button-container {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+  border: none;
+}
+
+/* Display styles */
+#DisplayBookNow,
+#DisplayLoyaltyPoints,
+#DisplayAdventureBookings {
+  margin-top: 20px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+
